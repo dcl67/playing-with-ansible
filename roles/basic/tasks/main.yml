@@ -1,10 +1,5 @@
 - name: "Installing software..."
   apt: pkg={{ item }} state=installed
   with_items:
-  - dnsutils
   - git
   - vim
-  - ntp
-  - at
-  - lvm2
-

@@ -1,0 +1,3 @@
+#insert your hosts below as IPs or fqdn format
+ansible_ssh_host: 0.0.0.0
+ansible_ssh_port: 32768
